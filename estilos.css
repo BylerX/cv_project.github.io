@@ -1,0 +1,125 @@
+body {
+    background-color: darkcyan;
+}
+
+img {
+    border-radius: 40rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+section {
+    display: flex;
+}
+
+div {
+    background-color: aquamarine;
+    padding: 15px;
+    max-width: 70%;
+    margin: 0 auto;
+
+}
+
+div.container-left {
+    max-width: 35%;
+    background-color: rgb(29, 141, 179);
+    padding: 20px;
+}
+div.container-right {
+    margin-right: 0;
+    background-color: rgb(33, 127, 190);
+    max-width: auto;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+ul {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    align-items: center;
+    display: flex;
+    color: rgb(194, 236, 255);
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 5px;
+}
+
+h2 {
+    color: rgb(12, 48, 80);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid mediumaquamarine;
+    max-width: auto;
+    margin: 1%;
+    padding: 10px;
+}
+
+h2.Información_personal {
+    margin-right: 10%;
+}
+
+p.domicilio {
+    color: rgb(26, 64, 189);
+    font-weight: lighter;
+    text-align: end;
+    text-decoration-line: underline;
+    font-style: oblique;
+}
+
+p.teléfono {
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+ul {
+    color: rgb(9, 28, 80);
+    text-align: justify;
+    text-overflow: ellipsis;
+    /* max-width: 10rem; */
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin: 0.30rem 0;
+
+}
+
+header {
+    display: inline-flex;
+    margin-inline-start: 1rem;
+}
+
+button {
+    background-color: #1675a1;
+    border-radius: 10%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(49, 180, 126);
+    color: rgb(0, 9, 134);
+}
+
+p.id {
+    display: flex;
+    cursor: pointer;
+    align-content: center;
+}
